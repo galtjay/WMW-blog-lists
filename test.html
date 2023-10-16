@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Markdown转HTML示例</title>
+    <script src="https://cdn.jsdelivr.net/npm/marked/marked.min.js"></script>
+</head>
+<body>
+    <div id="markdown-content">1</div>
+    <script>
+        const markdownContent = `
+# 标题
+
+这是一段 **Markdown** 文本。
+
+- 列表项 1
+- 列表项 2
+- 列表项 3
+        `;
+
+        const htmlContent = marked(markdownContent);
+
+        const markdownContainer = document.getElementById('markdown-content');
+        markdownContainer.innerHTML = htmlContent;
+    </script>
+</body>
+</html>

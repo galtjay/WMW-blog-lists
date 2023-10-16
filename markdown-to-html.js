@@ -1,3 +1,6 @@
+
+// Markdown内容
+const markdownContent = `
 # 如何快速准确的获取自己的外网出访IP？特别是使用了warp的情况下。
 寻找最佳的IP地址检测工具？我们提供自动获取外网IP的解决方案，包括代理前真实IP验证和Warp IP检测。无论您需要获取代理前的真实IP，访问被墙服务时的IP，或者访问未被墙服务时的IP，我们都有您 covered。查看我们的IP地址检测工具，轻松识别您的网络代理节点和真实出访IP。
 自动获取外网IP 出访IP获取方法 IP地址检测工具 代理节点IP识别 Warp IP检测 真实IP查找 访问国外服务IP检测 代理前真实IP验证 ChatGPT访问IP 网络运营商IP查询
@@ -232,5 +235,25 @@ https://watermelonwater.tech/docker%e9%83%a8%e7%bd%b2%e7%9a%84wordpress%e5%a6%82
 華人,華語,臺灣,香港,馬來西亞,新加坡,值得,關注,網紅,排名,推薦,頻道,youtube,youtuber,收入,自媒體
 本页面專注於進行華語YouTuber自媒體的數據排行,給大家帶來最值得關注的YouTube頻道資訊!
 https://watermelonwater.tech/ytrank/
+
+
+
+
+
+`;
+
+// 使用marked函数将Markdown内容转换为HTML
+const htmlContent = marked.parse(markdownContent, { breaks: true });
+
+// 选择要插入HTML内容的元素
+window.onload = function() {
+    const markdownContainer = document.getElementById('markdown-content');
+    console.log(markdownContainer)
+    // 将HTML内容插入到页面中
+    markdownContainer.innerHTML = htmlContent;
+};
+
+
+
 
 
