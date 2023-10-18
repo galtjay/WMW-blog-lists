@@ -68,7 +68,6 @@ Llama 2是由Meta训练的一款大型语言模型，其规模在70亿到700亿�
 NVIDIA Meta Llama 2 Llama2 70B 700B LLM 成本 硬件 电费
 https://watermelonwater.tech/meta%e8%ae%ad%e7%bb%83llama-2%e5%a4%a7%e6%a6%82%e8%8a%b1%e4%ba%86%e5%a4%9a%e5%b0%91%e9%92%b1%ef%bc%9f/
 
-
 # Hugging Face transformers库依赖的CUDA是什么？如何安装？
 最近由于工作的原因，需要去尝试部署海外大厂的开源LLM模型，进行一些测试验证。逐步呢就会接触到AI生态中的一些概念。Hugging Face的transformers库提供了使用PyTorch实现的预训练NLP模型，这些模型通过CUDA支持在GPU上进行训练和推理。因此对于私有化部署而言，最核心的就是把GPU的驱动及CUDA都安装好，那么CUDA是什么？如何完成安装？
 Hugging Face PyTorch transformers CUDA ubuntu centos 安装 错误 无法启动
@@ -99,7 +98,6 @@ https://watermelonwater.tech/%e5%a6%82%e4%bd%95%e4%b8%80%e9%94%ae%e5%a4%87%e4%bb
 海洛因 heroin 什么 感觉 危害 有多爽
 https://watermelonwater.tech/%e6%b5%b7%e6%b4%9b%e5%9b%a0%e5%90%b8%e9%a3%9f%e8%b5%b7%e6%9d%a5%e5%88%b0%e5%ba%95%e4%bb%80%e4%b9%88%e6%84%9f%e8%a7%89%ef%bc%9f/
 
-
 # 基于AWS Cloudfront完成全站静态资源CDN加速
 基于AWS Cloudfront完成全站静态资源CDN加速的完整配置过程
 CDN AWS Cloudfront 静态 加速 配置 详解
@@ -110,38 +108,30 @@ systemd是一个用于Linux操作系统的系统和服务管理器。systemd的u
 systemd systemctl runlevel Service Units
 https://watermelonwater.tech/%e8%81%8a%e4%b8%80%e8%81%8asystemd/
 
-
 # WordPress:无法将上传的文件移动至wp-content/uploads/2023/06的非777解决方案
 WordPress:无法将上传的文件移动至wp-content/uploads/2023/06的非777解决方案
 无法将上传的文件 移动 wp-content uploads WordPress 非777
 https://watermelonwater.tech/%e6%97%a0%e6%b3%95%e5%b0%86%e4%b8%8a%e4%bc%a0%e7%9a%84%e6%96%87%e4%bb%b6%e7%a7%bb%e5%8a%a8%e8%87%b3wp-content-uploads-2023-06/
-
-
 
 # Chinese YouTuber Rankings
 I have created a ranking of Chinese YouTubers, during my spare time.
 Chinese YouTuber Rankings rank
 https://watermelonwater.tech/chinese-youtuber-rankings/
 
-
 # Chatgpt是如何被训练出来的？
 chatgpt是如何被训练出来的？chatgpt 训练 算法 学习 奖励 模型 PPO 人类 监督 强化 大语言
 chatgpt 训练 算法 学习 奖励 模型 PPO 人类 监督 强化 大语言
 https://watermelonwater.tech/%e8%af%a6%e8%a7%a3chatgpt%e6%a8%a1%e5%9e%8b%e8%ae%ad%e7%bb%83%e7%9a%84%e8%bf%87%e7%a8%8b/
-
-
 
 # vue3的安装初始化及导入Element Plus
 基于vue3完成Element plus ui的映入，包含完整引入以及按需引入。
 vue vue3 导入 Element plus ui
 https://watermelonwater.tech/vue3%e7%9a%84%e5%ae%89%e8%a3%85%e5%88%9d%e5%a7%8b%e5%8c%96%e5%8f%8a%e5%af%bc%e5%85%a5element-plus/
 
-
 # 解决vps访问chatgpt时1020或429错误的终极解决方案突破openai限流
 自动化的彻底解决vps访问chatgpt时1020或429错误的最终解决方案，突破openai限流。
 openai warp 给节点套上cf的warp vps chatgpt cloudflare
 https://watermelonwater.tech/%e8%a7%a3%e5%86%b3vps%e8%ae%bf%e9%97%aechatgpt%e6%97%b61020%e6%88%96429%e9%94%99%e8%af%af%e7%9a%84%e7%bb%88%e6%9e%81%e8%a7%a3%e5%86%b3%e6%96%b9%e6%a1%88%e7%aa%81%e7%a0%b4openai%e9%99%90%e6%b5%81/
-
 
 # sqlalchemy2.0简明介绍
 declarative_base() takes 0 positional arguments but 1 was given，快速解决1.4版本与2.0版本代码兼容的问题。
@@ -158,18 +148,15 @@ Windows透过VNC server解决Selenium在远程桌面RDP关闭后无法正常运�
 远程桌面 RDP VNC Selenium 失败
 https://watermelonwater.tech/%e8%bf%9c%e7%a8%8b%e6%9c%8d%e5%8a%a1%e5%99%a8-rdp-%e6%96%ad%e5%bc%80%e4%b9%8b%e5%90%8e%ef%bc%8c%e5%a6%82%e4%bd%95%e4%bf%9d%e6%8c%81-selenium-%e5%8f%af%e4%bb%a5%e6%ad%a3%e5%b8%b8%e8%bf%90%e8%a1%8c/
 
-
 # Slack Claude的注册及与Chatgpt3的对比
 Claude比Chatgpt3的能力要强一些。假如你现在正在使用Chatgpt3，那么非常推荐你去注册使用。有Chatgpt4的小伙伴，也可以使用我文章中的几个问题去对比一下，欢迎将结果贴在留言区。
 openai chatgpt slack claude
 https://watermelonwater.tech/slack-claude%e7%9a%84%e6%b3%a8%e5%86%8c%e5%8f%8a%e4%b8%8echatgpt3%e7%9a%84%e5%af%b9%e6%af%94/
 
-
 # 写在Kubernetes1.24正式弃用Docker一年后
 2022年4月7日Kubernetes1.24版本正式删除和弃用dockershim，一年过去了，到底有多少人真的明白，这个是啥意思？我们聊一聊吧。本文主要将介绍两个概念，OCI and CRI，搞懂这两个，基本上就搞明白了。
 dockershim OCI CRI Containerd Podman CRI-O Kubernetes
 https://watermelonwater.tech/%e5%86%99%e5%9c%a8kubernetes1-24%e6%ad%a3%e5%bc%8f%e5%bc%83%e7%94%a8docker%e4%b8%80%e5%b9%b4%e5%90%8e/
-
 
 # 彻底解决chatgpt 429错误ratelimited
 不管是自己搭建的节点，还是各位购买的机场的节点，近期出现429：You are being ratelimited 错误的可能性越来越高。网上的文章往往告诉你，这个是高峰期，你等一段时间就好了，还有就是然你清理浏览器缓存的，给我整笑了。那么到底怎么搞，能够彻底解决这个问题呢？
@@ -196,37 +183,30 @@ Nexus权限管理思路，LDAP集成与单点，助力CI/CD加速。Repository M
 Nexus3 Repository Manager OSS LDAP CAS SSO maven
 https://watermelonwater.tech/nexus%e6%9d%83%e9%99%90%e7%ae%a1%e7%90%86%e6%80%9d%e8%b7%af%ef%bc%8cldap%e9%9b%86%e6%88%90%e4%b8%8e%e5%8d%95%e7%82%b9/
 
-
 # sonarqube与gitlab的账号单点认证与项目集成详解
 gitlab与sonarqube相关集成的详解。配置的过程中以一个maven的案例作为介绍，实现与gitlab CI的集成。最后将权限配置进行了说明，以满足多人、多项目使用的场景。同时介绍了gitlab与sonarqube实现单点登录的配置方式。
 gitlab sonarqube maven CI 集成
 https://watermelonwater.tech/sonarqube%e4%b8%8egitlab%e7%9a%84%e8%b4%a6%e5%8f%b7%e8%ae%a4%e8%af%81%e4%b8%8e%e9%a1%b9%e7%9b%ae%e9%9b%86%e6%88%90%e8%af%a6%e8%a7%a3/
-
 
 # git项目的流程管控 及 git基础命令介绍
 git项目的流程管控 及 git基础命令介绍：但是在实际工作当中，当我们实际维护项目，还是有必要按照正常项目管控的规范去开展。此处介绍时，我不会把这个过程搞的过于复杂，将建立两个分支：main and dev，模拟使用dev作为feature开发的分支，最终再透过merge request(gitlab)/pull request(github)合并到主分支的过程。
 git流程 git管控 git基础 git devops
 https://watermelonwater.tech/git%e9%a1%b9%e7%9b%ae%e7%9a%84%e6%b5%81%e7%a8%8b%e7%ae%a1%e6%8e%a7-git%e5%9f%ba%e7%a1%80%e5%91%bd%e4%bb%a4%e4%bb%8b%e7%bb%8d/
 
-
 # VMware安装的openWRT存在DNS解析的问题
 VMware安装的openWRT存在DNS解析的问题。近期DNS的污染、解析的问题越来越严重，我目前的办公环境使用VMware在本机安装了一个虚拟机openWRT，透过type-c的网口共享给我的服务器，解决服务器本身机上边虚拟机的上网问题。
 VMware openwrt DNS
 https://watermelonwater.tech/vmware%e5%ae%89%e8%a3%85%e7%9a%84openwrt%e5%ad%98%e5%9c%a8dns%e8%a7%a3%e6%9e%90%e7%9a%84%e9%97%ae%e9%a2%98/
-
 
 # docker 服务如何透过iptables或firewalld实现端口控制
 docker 服务如何透过iptables或firewalld实现端口控制，配置完成不生效，给出完美的解决方案，配置完成之后能够实现端口的控制。
 docker iptables firewalld 不生效
 https://watermelonwater.tech/docker-%e6%9c%8d%e5%8a%a1%e5%a6%82%e4%bd%95%e9%80%8f%e8%bf%87iptables%e6%88%96firewalld%e5%ae%9e%e7%8e%b0%e7%ab%af%e5%8f%a3%e6%8e%a7%e5%88%b6/
 
-
 # docker部署的wordpress如何修改php.ini
 docker部署的wordpress如何修改php.ini。1. 环境情况，使用docker或者docker-compose 部署的 wordpress2. 具体错误，wordpress 报错为 “此文件超过了本站点的最大上传大小
 docker wordpress php.ini
 https://watermelonwater.tech/docker%e9%83%a8%e7%bd%b2%e7%9a%84wordpress%e5%a6%82%e4%bd%95%e4%bf%ae%e6%94%b9php-ini/
-
-
 
 # 华人youtuber 油管博主 排行
 華人,華語,臺灣,香港,馬來西亞,新加坡,值得,關注,網紅,排名,推薦,頻道,youtube,youtuber,收入,自媒體
